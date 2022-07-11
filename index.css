@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(309deg, #9A4C95 15%, #5465FF 79%);
+	color: #E2FDFF; 
+}
+
+/*Style for paragraphs*/
+.center {
+	background: black;
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	border-radius: 25px;
+	border: 2px solid purple;
+	font-size: 20px;
+}
+
+.circle {
+	background: #E2FDFF;
+	color: black;
+	border-radius: 50%;
+	border: 2px solid purple;
+	margin: auto;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	font-size: 28px;
+}
+
+/*Style for the Sidebar*/
+.sidebar {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: #111;
+	overflow-x: hidden;
+	padding-top: 16px;
+	border-right: 3px solid purple;
+}
+
+/*Style for Homepage*/
+.he {
+	position: absolute;
+	width: 50%;
+	padding: 10px;
+	margin: center;
+	top: 10%;
+	text-align: center;
+	border-radius: 25px;
+	border: 2px solid purple;
+	background: black;
+}
+
+/*Style for pic on Homepage*/
+.pic {
+	position: absolute;
+	top: 10%;
+	width: 80%;
+	text-align: center;
+}
+
+header {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+
+.sidebar a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 24px;
+	color: #E2FDFF;
+	display: block;
+}
+
+.sidebar a:hover {
+	color: #BFD7FF
+}
+
+main {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
+}
